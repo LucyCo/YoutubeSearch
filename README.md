@@ -8,6 +8,7 @@ simple song search using youtube data api -
 
 getYoutubeVideoFromTitle returns YoutubeVideo object with attributes of the first result found when searching for the given string (should be song title), 
 null if the input was an empty string or the search returned empty (no result)
+
 getYoutubePlaylistFromTitleList returns a list of YoutubeVideo objects returns by an asyncronized call to getYoutubeVideoFromTitle
 
 
